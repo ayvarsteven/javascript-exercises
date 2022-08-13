@@ -6,7 +6,7 @@ const subtract = function(a, b) {
   return a - b;
 };
 
-const sum = function(arrayOfNums) {
+const sum = function(...arrayOfNums) {
   let sum = 0;
   for (i=0; i < arrayOfNums.length; i++) {
     sum += arrayOfNums[i];
