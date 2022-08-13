@@ -15,8 +15,10 @@ const sum = function(...arrayOfNums) {
 };
 
 const multiply = function(a, b) {
-
+  return a * b
 };
+
+console.log(multiply(2, 3))
 
 const power = function() {
 	
