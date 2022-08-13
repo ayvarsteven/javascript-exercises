@@ -14,7 +14,7 @@ const sum = function(arrayOfNums) {
   return sum
 };
 
-const multiply = function() {
+const multiply = function(a, b) {
 
 };
 
