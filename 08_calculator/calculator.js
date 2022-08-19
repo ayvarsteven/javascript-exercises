@@ -14,18 +14,30 @@ const sum = function(arrayOfNums) {
   return sum
 };
 
-const multiply = function(a, b) {
-  return a * b
+const multiply = function(arrayInput) {
+  let result = 1;
+  for(i = 0; i < arrayInput.length; i++) {
+    result = arrayInput[i] * result
+  }
+  return result
 };
 
-console.log(multiply(2, 3))
 
-const power = function() {
-	
+const power = function(baseNum, exponent) {
+    let result = undefined;
+    for(i = 0; i < exponent; i++) {
+        result = baseNum ** exponent
+    }
+    return result
 };
 
-const factorial = function() {
-	
+const factorial = function(num) {
+  if (num === 0 || num === 1) 
+    return 1
+  for (let i = num - 1; i >= 1; i--) {
+    num *= i;
+  }
+  return num
 };
 
 // Do not edit below this line
